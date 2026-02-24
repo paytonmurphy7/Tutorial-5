@@ -3,22 +3,31 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Theme Switcher</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="index.js" defer></script>
+
 </head>
 
 <body>
-    <h1>Paytons Homepage!</h1>
-    <link rel="stylesheet" href="tutorials/tutorial03/index.html">
-    <a href="tutorials/tutorial03/index.html">Tutorial 3</a>
-    <a href="exams/exam01/index.html"> Exam 1</a>
-    <a href="https://www.figma.com/design/iGDeiZfksZILtxPmOWl9IW/Instagram-Wireframes---Payton-Murphy?node-id=0-1&m=dev&t=sRkOOTlKaOEWZFBd-1">Figma Page!</a>
+
+    <section class="container">
+        <header>
+            <h1>My Header</h1>
+        </header>
+        <nav>
+            <button id="default" onclick="changeClass()"title="Change to 'Default' theme">Default</button>
+            <button id="desert" onclick="changeClass('desert')"title="Change to 'Desert' theme">Desert</button>
+            <button id="ocean" onclick="changeClass('ocean')"title="Change to 'Ocean' theme">Ocean</button>
+            <button id="high-contrast" onclick="changeClass('high-contrast')"title="Change to 'High Contrast' theme">High Contrast</button>
+        </nav>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet, cu soluta concludaturque vim, summo voluptatibus ex sea. Est id aperiri
+                offendit vulputate, legere malorum est et. Zril volutpat sit id, no aeterno apeirian mei. Est at oblique
+                democritum. Oratio minimum atomorum an per,
+                mel ne ferri deterruisset. In eos vivendum incorrupte reprimique...</p>
+        </div>
+    </section>
 </body>
 
-<p>
-    Tutorial 5: 
-    <a href="tutorials/tutorial05/01-theme-switcher/">Theme Switcher</a>
-    <a href="tutorials/tutorial05/02-hamburger-menu/">Hamburger Menu</a>
-    <a href="tutorials/tutorial05/03-carousel/">Carousel</a>
-</p>
 </html>
